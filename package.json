@@ -6,14 +6,12 @@
   "homepage": "https://jordanfrontdev.github.io/nexter-project/",
   "scripts": {
     "start": "node-sass -w scss/ -o css --recursive",
-    "deploy": "gh-pages -d public"
     
   },
   "keywords": [],
   "author": "Jordan Vinicius",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
