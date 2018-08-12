@@ -6,8 +6,7 @@
   "homepage": "https://jordanfrontdev.github.io/nexter-website",
   "scripts": {
     "start": "node-sass -w scss/ -o css --recursive",
-    "heroku-postbuild": "npm run build:prod"
-
+    "deploy": "gh-pages -d public"
     
   },
   "keywords": [],
