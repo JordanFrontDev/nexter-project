@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://jordanfrontdev.github.io/nexter-website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css --recursive",
+    "start": "node-sass -w scss/ -o css --recursive",
     "deploy": "gh-pages -d public"
     
   },
